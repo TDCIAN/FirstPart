@@ -15,6 +15,10 @@
 		1861304426568FB90073FDAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1861304226568FB90073FDAC /* LaunchScreen.storyboard */; };
 		1861304D2656905B0073FDAC /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1861304C2656905B0073FDAC /* Font+Extension.swift */; };
 		186130502656908A0073FDAC /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1861304F2656908A0073FDAC /* Color+Extension.swift */; };
+		18613057265691DA0073FDAC /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18613053265691DA0073FDAC /* OpenSans-Bold.ttf */; };
+		1861305A265691DA0073FDAC /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18613056265691DA0073FDAC /* OpenSans-Regular.ttf */; };
+		1861305C265692120073FDAC /* NotoSansCJKkr-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1861305E265692120073FDAC /* NotoSansCJKkr-Bold.otf */; };
+		18613060265692190073FDAC /* NotoSansCJKkr-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 18613062265692190073FDAC /* NotoSansCJKkr-Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		1861304526568FB90073FDAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1861304C2656905B0073FDAC /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
 		1861304F2656908A0073FDAC /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		18613053265691DA0073FDAC /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		18613056265691DA0073FDAC /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		1861305D265692120073FDAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = "Base.lproj/NotoSansCJKkr-Bold.otf"; sourceTree = "<group>"; };
+		18613061265692190073FDAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = "Base.lproj/NotoSansCJKkr-Regular.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,7 @@
 		1861303626568FB80073FDAC /* FirstPart */ = {
 			isa = PBXGroup;
 			children = (
+				18613052265691B40073FDAC /* Fonts */,
 				1861303726568FB80073FDAC /* AppDelegate.swift */,
 				1861303926568FB80073FDAC /* SceneDelegate.swift */,
 				1861303B26568FB80073FDAC /* ContentView.swift */,
@@ -79,6 +88,17 @@
 				1861304026568FB90073FDAC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18613052265691B40073FDAC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1861305E265692120073FDAC /* NotoSansCJKkr-Bold.otf */,
+				18613062265692190073FDAC /* NotoSansCJKkr-Regular.otf */,
+				18613053265691DA0073FDAC /* OpenSans-Bold.ttf */,
+				18613056265691DA0073FDAC /* OpenSans-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +159,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1861304426568FB90073FDAC /* LaunchScreen.storyboard in Resources */,
+				18613060265692190073FDAC /* NotoSansCJKkr-Regular.otf in Resources */,
+				1861305C265692120073FDAC /* NotoSansCJKkr-Bold.otf in Resources */,
+				1861305A265691DA0073FDAC /* OpenSans-Regular.ttf in Resources */,
 				1861304126568FB90073FDAC /* Preview Assets.xcassets in Resources */,
+				18613057265691DA0073FDAC /* OpenSans-Bold.ttf in Resources */,
 				1861303E26568FB90073FDAC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -168,6 +192,22 @@
 				1861304326568FB90073FDAC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1861305E265692120073FDAC /* NotoSansCJKkr-Bold.otf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1861305D265692120073FDAC /* Base */,
+			);
+			name = "NotoSansCJKkr-Bold.otf";
+			sourceTree = "<group>";
+		};
+		18613062265692190073FDAC /* NotoSansCJKkr-Regular.otf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18613061265692190073FDAC /* Base */,
+			);
+			name = "NotoSansCJKkr-Regular.otf";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
