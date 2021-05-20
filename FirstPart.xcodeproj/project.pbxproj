@@ -13,6 +13,8 @@
 		1861303E26568FB90073FDAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1861303D26568FB90073FDAC /* Assets.xcassets */; };
 		1861304126568FB90073FDAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1861304026568FB90073FDAC /* Preview Assets.xcassets */; };
 		1861304426568FB90073FDAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1861304226568FB90073FDAC /* LaunchScreen.storyboard */; };
+		1861304D2656905B0073FDAC /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1861304C2656905B0073FDAC /* Font+Extension.swift */; };
+		186130502656908A0073FDAC /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1861304F2656908A0073FDAC /* Color+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1861304026568FB90073FDAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1861304326568FB90073FDAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1861304526568FB90073FDAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1861304C2656905B0073FDAC /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
+		1861304F2656908A0073FDAC /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				1861304226568FB90073FDAC /* LaunchScreen.storyboard */,
 				1861304526568FB90073FDAC /* Info.plist */,
 				1861303F26568FB90073FDAC /* Preview Content */,
+				1861304C2656905B0073FDAC /* Font+Extension.swift */,
+				1861304F2656908A0073FDAC /* Color+Extension.swift */,
 			);
 			path = FirstPart;
 			sourceTree = "<group>";
@@ -146,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1861303826568FB80073FDAC /* AppDelegate.swift in Sources */,
+				186130502656908A0073FDAC /* Color+Extension.swift in Sources */,
 				1861303A26568FB80073FDAC /* SceneDelegate.swift in Sources */,
+				1861304D2656905B0073FDAC /* Font+Extension.swift in Sources */,
 				1861303C26568FB80073FDAC /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
